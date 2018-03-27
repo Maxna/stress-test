@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stress Test</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Stress Test</h2>
+      </div>
+      <form id="stress_survey">
+        <div class="form-group">
+          <p>Have you been experiencing any of these warning signs in the last week?</p>
+          <input type="checkbox" name="stress-test" value="sleep"> Loss of sleep<br>
+          <input type="checkbox" name="stress-test" value="overwhelmed">Feeling overwhelmed<br>
+          <input type="checkbox" name="work-transportation" value="irritability">Irritability<br>
+          <br>
+          <p>Have you been feeling any of these symptoms lately?</p>
+          <input type="checkbox" name="stress-test" value="high-blood-pressure">High blood pressure<br>
+          <input type="checkbox" name="stress-test" value="anxiety">Anxiety<br>
+          <input type="checkbox" name="stress-test" value="aches-and-pains">Aches and pains<br>
+          <br>
+          <p>Have you tried any of these methods to relieve stress?</p>
+          <input type="checkbox" name="health-test" value="meditation">Meditation<br>
+          <input type="checkbox" name="health-test" value="manage-time">Manage your time<br>
+          <input type="checkbox" name="health-test" value="pet-a-cat">Pet a cat<br>
+        </div>
+       <button type="submit">Submit Survey</button>
+      </form>
+      <br>
+      <span id="stress-responses">
+        <p><b>You have experienced the following effects:</b></p>
+      </span>
+      <br>
+      <span id="health-responses">
+        <p><b>You have tried these methods to relieve stress:</b></p>
+      </span>
+      <br>
+    </div>
+  </body>
+</html>
