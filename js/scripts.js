@@ -15,3 +15,8 @@ $(document).ready(function(){
     $('#stress_survey').hide();
   });
 });
+// var stressed = 0;
+// var slightlyStressed = 0;
+// var notStressed = 0;
+//
+// if $("input:checkbox[name=stress-test]:checked")
